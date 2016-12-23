@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+    <test name="BingAutomation">
+        <parameter name="image-amount" value="10"/>
+        <classes>
+            <class name="BingTest">
+                <methods>
+                    <include name="search"/>
+                </methods>
+            </class> <!-- BingTest -->
+        </classes>
+    </test> <!-- BingAutomation -->
+</suite> <!-- Default Suite -->
